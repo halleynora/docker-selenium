@@ -11,7 +11,7 @@ Run (you'll find his in the boot2docker documentation too)
 
 
 * Once inside the docker VM
- * git clone https://github.com/halleynora/selenium_docker.git
+ * git clone https://github.com/halleynora/docker-selenium.git
  * cd docker-selenium
  * ./start-hub.sh
  * ./start-node.sh (you can repeat this for multiple nodes)
