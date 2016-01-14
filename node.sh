@@ -3,3 +3,5 @@ mv /dev/random /dev/random.real
 ln -s /dev/urandom /dev/random
 export DISPLAY=:99
 java -Dwebdriver.chrome.driver="/node/config/chromedriver" -jar /node/config/selenium-server-standalone-2.49.0.jar -role node -hubHost ${HUB_PORT_4444_TCP_ADDR} -hubPort ${HUB_PORT_4444_TCP_PORT} -nodeConfig /node/config/node.config
+
+
