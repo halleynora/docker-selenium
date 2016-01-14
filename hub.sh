@@ -1,1 +1,1 @@
-java -jar /node/config/selenium-server-standalone-2.49.0.jar -role hub -nodeConfig /node/config/hub.config
+java -jar /node/config/selenium-server-standalone-2.44.0.jar -role hub -nodeConfig /node/config/hub.config
